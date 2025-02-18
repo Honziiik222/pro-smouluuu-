@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tajná zpráva</title>
+    <style>
+        body {
+            background-color: white;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .secret {
+            color: white;
+            user-select: none;
+        }
+        .secret:hover {
+            color: black;
+            user-select: text;
+        }
+    </style>
+</head>
+<body>
+    <h2>Chci ti něco říct, ale je to tajné...</h2>
+    <p class="secret">Dneska jsem na tebe hodně myslel. Přál bych si, aby jsi měla úsměv na tváři Terii a posílám ti virtuální objetí. Miluju tě. ❤️</p>
+    <p>(Označ text myší, abys ho viděla!)</p>
+</body>
+</html>
